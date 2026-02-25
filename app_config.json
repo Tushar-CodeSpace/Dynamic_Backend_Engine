@@ -1,0 +1,26 @@
+{
+    "_id": "018d9e2f-6c7b-7c3a-9f2e-4b1d8a6e5c90",
+    "port": 8000,
+    "debug": true,
+    "routes": [
+        {
+            "path": "/hello",
+            "method": "GET",
+            "response": {
+                "msg": "Hello from DB route"
+            }
+        },
+        {
+            "path": "/status",
+            "method": "GET",
+            "response": {
+                "status": "ok"
+            }
+        },
+        {
+            "path": "/echo",
+            "method": "POST",
+            "echo": true
+        }
+    ]
+}
