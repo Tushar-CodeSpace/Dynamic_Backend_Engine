@@ -5,12 +5,15 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "bcrypt==3.2.2",
     "colorama>=0.4.6",
     "fastapi>=0.131.0",
     "numpy>=2.4.2",
+    "passlib>=1.7.4",
     "pydantic>=2.12.5",
     "pymongo>=4.16.0",
     "python-dotenv>=1.2.1",
     "tensorflow>=2.20.0",
+    "uuid7>=0.1.0",
     "uvicorn>=0.41.0",
 ]
