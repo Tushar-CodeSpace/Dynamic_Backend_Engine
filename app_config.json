@@ -4,23 +4,13 @@
     "debug": true,
     "routes": [
         {
-            "path": "/hello",
-            "method": "GET",
-            "response": {
-                "msg": "Hello from DB route"
-            }
+            "route_id": "route-signup"
         },
         {
-            "path": "/status",
-            "method": "GET",
-            "response": {
-                "status": "ok"
-            }
+            "route_id": "route-login"
         },
         {
-            "path": "/echo",
-            "method": "POST",
-            "echo": true
+            "route_id": "route-users-list"
         }
     ]
 }

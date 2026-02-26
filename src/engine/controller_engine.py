@@ -42,7 +42,7 @@ async def execute_controller(controller_config, request, db):
             body.setdefault(key, value)
 
         # 🆔 UUID v7 as _id
-        body["_id"] = str(uuid.uuid7())
+        body["_id"] = str(uuid.uuid4())
 
         body["created_at"] = datetime.utcnow()
 
